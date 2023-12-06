@@ -1,0 +1,42 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+
+using RestSharp;
+using PerpustakaanAppMVC.Model.Entity;
+
+public class MahasiswaRestApiRepository
+{
+	public int Create(Mahasiswa mhs)
+	{
+		throw new NotImplementedException();
+	}
+
+	public int Update(Mahasiswa mhs)
+	{
+		throw new NotImplementedException();
+	}
+
+	public int Delete(Mahasiswa mhs)
+	{
+		throw new NotImplementedException();
+	}
+
+	public List<Mahasiswa> ReadAll()
+	{
+		throw new NotImplementedException();
+	}
+
+	public List<Mahasiswa> ReadByNama(string nama)
+	{
+		throw new NotImplementedException();
+	}
+
+	public Mahasiswa ReadByNpm(string npm)
+	{
+		throw new NotImplementedException();
+	}
+}
